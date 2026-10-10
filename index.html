@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Jawad Uz Zaman — HR Leadership, Engineered Like Software</title>
-<meta name="description" content="HR leader who builds the systems behind people operations. 70% faster time-to-hire, 130+ tech hires, 3 promotions in 3.5 years. HR analytics, HRIS architecture, and performance infrastructure — engineered like software."/>
-<meta property="og:title" content="Jawad Uz Zaman — HR Leadership, Engineered Like Software"/>
-<meta property="og:description" content="I don't manage people processes — I build the systems behind them. 70% faster hiring, 130+ tech roles closed, systems built from scratch."/>
+<title>Jawad Uz Zaman | HR Leadership, Engineered Like Software</title>
+<meta name="description" content="HR leader who builds the systems behind people operations. 70% faster time-to-hire, 130+ tech hires, 3 promotions in 3.5 years. HR analytics, HRIS architecture, and performance infrastructure, engineered like software."/>
+<meta property="og:title" content="Jawad Uz Zaman | HR Leadership, Engineered Like Software"/>
+<meta property="og:description" content="I don't manage people processes. I build the systems behind them. 70% faster hiring, 130+ tech roles closed, systems built from scratch."/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://jawaduzzaman.github.io"/>
 <meta name="theme-color" content="#080b12"/>
@@ -178,7 +178,7 @@ section:last-of-type{padding-bottom:100px}
 .eyebrow::before{content:'';width:18px;height:1.5px;background:var(--teal)}
 .sec-title{
   font-family:'Sora',sans-serif;font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:700;
-  line-height:1.2;margin-bottom:1rem;max-width:700px;letter-spacing:-.5px;
+  line-height:1.2;margin-bottom:1rem;max-width:1100px;letter-spacing:-.5px;
 }
 .sec-sub{color:var(--muted);max-width:560px;font-size:.97rem;line-height:1.75;text-align:justify}
 
@@ -336,9 +336,14 @@ section:last-of-type{padding-bottom:100px}
 
 /* ===== ABOUT ===== */
 #about{background:linear-gradient(180deg,transparent,var(--bg2) 8%,var(--bg2) 92%,transparent)}
-.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:4rem;margin-top:3rem;align-items:start}
+.about-grid{display:grid;grid-template-columns:1.34fr .66fr;gap:4rem;margin-top:3rem;align-items:start}
 .about-lead{font-family:'Sora',sans-serif;font-size:1.3rem;font-weight:600;line-height:1.5;margin-bottom:1.3rem;color:var(--text)}
 .about-lead .hl{color:var(--teal)}
+/* two-column layout only: scale the lead to hold one line, and if it ever wraps, break at the sentence */
+@media (min-width:981px){
+  .about-lead{font-size:clamp(1.1rem,1.45vw,1.3rem)}
+  .about-lead .lead-clause{display:inline-block}
+}
 .about-text p{color:var(--text-dim);margin-bottom:1.1rem;font-size:.95rem;line-height:1.85;text-align:justify}
 .about-text p strong{color:var(--text);font-weight:600}
 .origin-strip{
@@ -1053,7 +1058,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
       <h1 class="hero-name"><span class="hw" style="--d:0">HR</span> <span class="hw" style="--d:1">Leadership,</span><br/><span class="line2 hw" style="--d:2">Engineered Like Software.</span></h1>
       <div class="typed-line"><span id="typedText"></span><span class="typed-caret"></span></div>
       <p class="hero-desc">
-        I don't manage people processes — I <strong>build the systems</strong> behind them. Five years turning hiring, performance, workforce data, HR operations processes, and analytics into infrastructure: the kind that cuts time-to-hire by <strong>70%</strong> and gives leadership a real-time read on the organization, not a quarterly guess.
+        I don't manage people processes. I <strong>build the systems</strong> behind them. Five years turning hiring, performance, workforce data, HR operations processes, and analytics into infrastructure: the kind that cuts time-to-hire by <strong>70%</strong> and gives leadership a real-time read on the organization, not a quarterly guess.
       </p>
       <div class="hero-meta mono">
         <span><b>5+ yrs</b> HR leadership</span>·
@@ -1081,7 +1086,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
             <div class="dc-avatar">JZ</div>
             <div>
               <div class="dc-name-row"><span class="dc-name">Jawad Uz Zaman</span><span class="verified">✓</span></div>
-              <div class="dc-role">Manager I — People & Culture</div>
+              <div class="dc-role">Manager I · People & Culture</div>
             </div>
             <div class="dc-badge">APAC · FX/FINTECH</div>
           </div>
@@ -1139,22 +1144,22 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   </div>
   <div class="about-grid reveal">
     <div>
-      <p class="about-lead">Most HR careers run in a straight line. Mine didn't — and <span class="hl">that's the point.</span></p>
+      <p class="about-lead"><span class="lead-clause">Most HR careers run in a straight line.</span> <span class="lead-clause">Mine didn't, and <span class="hl">that's the point.</span></span></p>
       <div class="about-text">
-        <p>I started as a self-taught <strong>graphic designer</strong> in 2013, then spent years in <strong>IT support</strong> and <strong>accounting</strong> — learning how systems and numbers actually work before I ever wrote a job description. A stint in <strong>data research</strong> (IBM SPSS, predictive analytics, COVID-19 studies) and <strong>digital marketing</strong> (SEO, paid campaigns, funnel analytics) followed. By the time I landed in HR in 2021, I wasn't thinking like a generalist — I was thinking like someone who builds tools.</p>
-        <p>That's exactly what I've done at <strong>NEXT Ventures</strong>: three internal promotions in 3.5 years, from Executive HRBP to Manager I overseeing People & Culture — not by managing harder, but by <strong>engineering smarter</strong>. When I joined, there was no ATS, no HRIS, no performance infrastructure of any kind. I identified those gaps, built the business case with hard data — projecting exactly how much efficiency each system would recover and at what cost — then proposed, secured approval for, implemented, and owned all three. The ATS went from concept to full operational efficiency. The HRIS was built entirely from scratch, every configuration mine, and driven to complete organisational adoption. The performance system became the live intelligence layer leadership now relies on daily instead of waiting for quarterly retrospectives.</p>
-        <p>The result is a profile most organisations rarely get to hire for: someone who commands both the <strong>human side of HR strategy</strong> and the <strong>architecture of the systems that power it</strong> — from designing workflow logic inside ATS platforms, to engineering HRIS data pipelines and ETL processes, to deploying predictive workforce analytics using statistical modelling. Not a hybrid of two skill sets loosely stapled together. A single professional who moves fluidly between boardroom talent strategy and the back-end configuration of the platforms that execute it at scale.</p>
+        <p>I started as a self-taught <strong>graphic designer</strong> in 2013, then spent years in <strong>IT support</strong> and <strong>accounting</strong>, learning how systems and numbers actually work before I ever wrote a job description. A stint in <strong>data research</strong> (IBM SPSS, predictive analytics, COVID-19 studies) and <strong>digital marketing</strong> (SEO, paid campaigns, funnel analytics) followed. By the time I landed in HR in 2021, I wasn't thinking like a generalist. I was thinking like someone who builds tools.</p>
+        <p>That's exactly what I've done at <strong>NEXT Ventures</strong>: three internal promotions in 3.5 years, from Executive HRBP to Manager I overseeing People & Culture, not by managing harder, but by <strong>engineering smarter</strong>. When I joined, there was no ATS, no HRIS, no performance infrastructure of any kind. I identified those gaps, built the business case with hard data, projecting exactly how much efficiency each system would recover and at what cost, then proposed, secured approval for, implemented, and owned all three. The ATS went from concept to full operational efficiency. The HRIS was built entirely from scratch, every configuration mine, and driven to complete organisational adoption. The performance system became the live intelligence layer leadership now relies on daily instead of waiting for quarterly retrospectives.</p>
+        <p>The result is a profile most organisations rarely get to hire for: someone who commands both the <strong>human side of HR strategy</strong> and the <strong>architecture of the systems that power it</strong>, from designing workflow logic inside ATS platforms, to engineering HRIS data pipelines and ETL processes, to deploying predictive workforce analytics using statistical modelling. Not a hybrid of two skill sets loosely stapled together. A single professional who moves fluidly between boardroom talent strategy and the back-end configuration of the platforms that execute it at scale.</p>
       </div>
       <div class="origin-strip">
         <div class="origin-step"><div class="yr">2009–18</div><div class="role">Design · IT · Finance</div></div>
         <div class="origin-step"><div class="yr">2020–22</div><div class="role">Research · Marketing</div></div>
         <div class="origin-step"><div class="yr">2021–22</div><div class="role">HR Entry</div></div>
-        <div class="origin-step now"><div class="yr">2023–Now</div><div class="role">People & Culture Manager</div></div>
+        <div class="origin-step now"><div class="yr">2023–Now</div><div class="role">Manager I · People & Culture</div></div>
       </div>
     </div>
     <div class="about-card">
       <div class="about-card-title">QUICK FACTS</div>
-      <div class="info-row"><div class="info-icon">💼</div><div><div class="info-label">Currently</div><div class="info-val">Manager I, People & Culture — NEXT Ventures</div></div></div>
+      <div class="info-row"><div class="info-icon">💼</div><div><div class="info-label">Currently</div><div class="info-val">Manager I, People & Culture at NEXT Ventures</div></div></div>
       <div class="info-row"><div class="info-icon">🌏</div><div><div class="info-label">Scope</div><div class="info-val">APAC · FX & Fintech · Global Remote-Ready</div></div></div>
       <div class="info-row"><div class="info-icon">📈</div><div><div class="info-label">Career Span</div><div class="info-val">10+ yrs cross-functional · 5+ yrs HR leadership · 3 internal promotions</div></div></div>
       <div class="info-row"><div class="info-icon">🎯</div><div><div class="info-label">Specialises In</div><div class="info-val">HR Systems Architecture · People Analytics · Technical Recruiting · Org Design</div></div></div>
@@ -1213,28 +1218,28 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
       <div class="process-num">01</div>
       <div class="process-icon">🔍</div>
       <div class="process-title">Diagnose the Gap</div>
-      <div class="process-desc">Map where hours, data, and decisions leak — manual screening, scattered records, invisible performance. Quantify the cost of doing nothing.</div>
+      <div class="process-desc">Map where hours, data, and decisions leak across manual screening, scattered records, and invisible performance. Quantify the cost of doing nothing.</div>
     </div>
     <div class="process-connector">→</div>
     <div class="process-card">
       <div class="process-num">02</div>
       <div class="process-icon">📐</div>
       <div class="process-title">Build the Business Case</div>
-      <div class="process-desc">Turn the gap into numbers leadership can act on — projected efficiency recovered, cost per system, break-even timeline. Data first, opinion second.</div>
+      <div class="process-desc">Turn the gap into numbers leadership can act on, from projected efficiency recovered to cost per system and break-even timeline. Data first, opinion second.</div>
     </div>
     <div class="process-connector">→</div>
     <div class="process-card">
       <div class="process-num">03</div>
       <div class="process-icon">⚙️</div>
       <div class="process-title">Build & Deploy</div>
-      <div class="process-desc">Own every configuration — workflows, integrations, dashboards, training. Ship to full organisational adoption, not just go-live.</div>
+      <div class="process-desc">Own every configuration, from workflows and integrations to dashboards and training. Ship to full organisational adoption, not just go-live.</div>
     </div>
     <div class="process-connector">→</div>
     <div class="process-card">
       <div class="process-num">04</div>
       <div class="process-icon">📡</div>
       <div class="process-title">Automate & Scale</div>
-      <div class="process-desc">Wire in automation and live analytics so the system runs itself — and starts feeding leadership real-time intelligence, not retrospective reports.</div>
+      <div class="process-desc">Wire in automation and live analytics so the system runs itself, and starts feeding leadership real-time intelligence, not retrospective reports.</div>
     </div>
   </div>
 </section>
@@ -1252,10 +1257,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 
     <div class="exp-item">
       <div class="exp-card">
-        <div class="exp-top"><div class="exp-role">Manager I — People & Culture (APAC)</div><div class="exp-date">JAN 2026 → PRESENT</div></div>
+        <div class="exp-top"><div class="exp-role">Manager I · People & Culture (APAC)</div><div class="exp-date">JAN 2026 → PRESENT</div></div>
         <div class="exp-company"><b>NEXT Ventures</b> · FX & Fintech</div>
         <ul class="exp-points">
-          <li>Own people technology and analytics strategy across the APAC organization — not just execution, the strategy itself</li>
+          <li>Own people technology and analytics strategy across the APAC organization, not just execution, the strategy itself</li>
           <li>Lead AI integration into People & Culture workflows, replacing manual processes with automated ones at scale</li>
           <li>Hold HRIS, ATS, and PMS platforms accountable for data integrity across the full employee lifecycle</li>
           <li>Design org structure and workforce planning to keep pace with a fast-moving fintech business</li>
@@ -1266,12 +1271,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 
     <div class="exp-item">
       <div class="exp-card">
-        <div class="exp-top"><div class="exp-role">Senior Executive — HR Analytics & Technology</div><div class="exp-date">JUL 2024 → JAN 2026</div></div>
+        <div class="exp-top"><div class="exp-role">Senior Executive · HR Analytics & Technology</div><div class="exp-date">JUL 2024 → JAN 2026</div></div>
         <div class="exp-company"><b>NEXT Ventures</b> · Dhaka</div>
         <ul class="exp-points">
-          <li>Rebuilt the Recruitee ATS from the ground up — workflows, automation, recruiter training — cutting screening-to-hire time by <b style="color:var(--teal)">70%</b></li>
+          <li>Rebuilt the Recruitee ATS from the ground up (workflows, automation, recruiter training), cutting screening-to-hire time by <b style="color:var(--teal)">70%</b></li>
           <li>Re-architected HiBob HRIS as the single source of truth for people data, streamlining <b style="color:var(--teal)">65%</b> of HR operations</li>
-          <li>Stood up Revolut as the company's performance platform — OKRs, reviews, analytics — bringing <b style="color:var(--teal)">80%</b> of evaluations into tracked, measurable cycles</li>
+          <li>Stood up Revolut as the company's performance platform (OKRs, reviews, analytics), bringing <b style="color:var(--teal)">80%</b> of evaluations into tracked, measurable cycles</li>
           <li>Shipped recruiting and HR dashboards leadership now checks weekly, not quarterly</li>
         </ul>
         <div class="exp-tags"><span class="exp-tag">RECRUITEE ATS</span><span class="exp-tag">HIBOB</span><span class="exp-tag">REVOLUT PMS</span><span class="exp-tag">DASHBOARDS</span></div>
@@ -1280,7 +1285,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 
     <div class="exp-item">
       <div class="exp-card">
-        <div class="exp-top"><div class="exp-role">Executive — HR Business Partner</div><div class="exp-date">FEB 2023 → JUL 2024</div></div>
+        <div class="exp-top"><div class="exp-role">Executive · HR Business Partner</div><div class="exp-date">FEB 2023 → JUL 2024</div></div>
         <div class="exp-company"><b>NEXT Ventures</b> · Dhaka</div>
         <ul class="exp-points">
           <li>Closed <b style="color:var(--teal)">60+ technical roles</b> single-handedly while reducing time-to-hire by 70%</li>
@@ -1297,7 +1302,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
         <div class="exp-company"><b>Steadfast International Services, LLC</b> · Queens, NY (Remote)</div>
         <ul class="exp-points">
           <li>Ran HR policy, onboarding, and compliance for a US-based client base</li>
-          <li>Audited HR data systems for integrity — the first taste of HR-as-a-system thinking</li>
+          <li>Audited HR data systems for integrity, the first taste of HR-as-a-system thinking</li>
         </ul>
         <div class="exp-tags"><span class="exp-tag">RECRUITING</span><span class="exp-tag">COMPLIANCE</span></div>
       </div>
@@ -1309,7 +1314,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
         <div class="exp-company"><b>Xpert SEO Service</b> · Dhaka</div>
         <ul class="exp-points">
           <li>Ran paid search and SEO campaigns, tracking ROI through Google Analytics and SEMrush</li>
-          <li>Learned to treat marketing funnels as data pipelines — a lens I now apply to hiring funnels</li>
+          <li>Learned to treat marketing funnels as data pipelines, a lens I now apply to hiring funnels</li>
         </ul>
         <div class="exp-tags"><span class="exp-tag">SEO</span><span class="exp-tag">ANALYTICS</span></div>
       </div>
@@ -1320,7 +1325,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
         <div class="exp-top"><div class="exp-role">Research Assistant</div><div class="exp-date">AUG 2020 → AUG 2021</div></div>
         <div class="exp-company"><b>Global Research Team</b> · USA (Remote)</div>
         <ul class="exp-points">
-          <li>Analyzed datasets in IBM SPSS for a COVID-19 perception study — my first real exposure to data-driven decision-making</li>
+          <li>Analyzed datasets in IBM SPSS for a COVID-19 perception study, my first real exposure to data-driven decision-making</li>
         </ul>
         <div class="exp-tags"><span class="exp-tag">IBM SPSS</span><span class="exp-tag">RESEARCH</span></div>
       </div>
@@ -1336,7 +1341,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   <div class="reveal">
     <div class="eyebrow">Numbers That Don't Round Down</div>
     <h2 class="sec-title">What "Engineered Like Software" Actually Produces</h2>
-    <p class="sec-sub">Every metric here is tied to a system I personally designed and shipped — not a department-wide average I happened to sit in.</p>
+    <p class="sec-sub">Every metric here is tied to a system I personally designed and shipped, not a department-wide average I happened to sit in.</p>
   </div>
   <div class="metrics-grid reveal">
     <div class="metric-card" style="--mc:var(--teal)"><div class="metric-glow"></div>
@@ -1360,13 +1365,13 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
     <div class="metric-card" style="--mc:var(--gold)"><div class="metric-glow"></div>
       <div class="metric-icon">👥</div>
       <div class="metric-val"><span class="counter" data-target="130">0</span><span class="metric-unit">+</span></div>
-      <div class="metric-label">Technical roles closed — engineering, data, DevOps, QA, leadership</div>
+      <div class="metric-label">Technical roles closed across engineering, data, DevOps, QA, and leadership</div>
       <div class="metric-context">IC through manager-level</div>
     </div>
     <div class="metric-card" style="--mc:var(--pink)"><div class="metric-glow"></div>
       <div class="metric-icon">📈</div>
       <div class="metric-val"><span class="counter" data-target="3">0</span></div>
-      <div class="metric-label">Internal promotions in 3.5 years — HRBP to Manager I, APAC</div>
+      <div class="metric-label">Internal promotions in 3.5 years, from HRBP to Manager I, APAC</div>
       <div class="metric-context">earned, not tenured</div>
     </div>
     <div class="metric-card" style="--mc:var(--teal)"><div class="metric-glow"></div>
@@ -1384,22 +1389,22 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 <section id="projects">
   <div class="reveal">
     <div class="eyebrow">Systems Shipped</div>
-    <h2 class="sec-title">Not Projects I Was Assigned — Systems I Designed</h2>
+    <h2 class="sec-title">Not Projects I Was Assigned · Systems I Designed</h2>
     <p class="sec-sub">Each one replaced a manual, spreadsheet-driven process with something that runs itself.</p>
   </div>
   <div class="projects-grid reveal">
 
     <div class="project-card">
       <div class="proj-header"><div class="proj-icon">🤖</div><div class="proj-status status-live">IN PRODUCTION</div></div>
-      <div class="proj-title">Recruitee ATS — Rebuilt from Zero</div>
-      <div class="proj-desc">Inherited a manual, spreadsheet-based hiring process and replaced it with a fully automated ATS — custom screening workflows, recruiter training, and live dashboards built in.</div>
+      <div class="proj-title">Recruitee ATS · Rebuilt from Zero</div>
+      <div class="proj-desc">Inherited a manual, spreadsheet-based hiring process and replaced it with a fully automated ATS featuring custom screening workflows, recruiter training, and live dashboards built in.</div>
       <div class="proj-impact">↳ 70% faster screening-to-hire across 130+ roles</div>
       <div class="proj-stack"><span class="stack-tag">Recruitee</span><span class="stack-tag">Workflow Automation</span><span class="stack-tag">Recruiter Enablement</span></div>
     </div>
 
     <div class="project-card">
       <div class="proj-header"><div class="proj-icon">📋</div><div class="proj-status status-live">IN PRODUCTION</div></div>
-      <div class="proj-title">HiBob HRIS — Single Source of Truth</div>
+      <div class="proj-title">HiBob HRIS · Single Source of Truth</div>
       <div class="proj-desc">Consolidated payroll, attendance, leave, and documentation that previously lived across three disconnected tools into one centralized, compliant HRIS architecture.</div>
       <div class="proj-impact">↳ 65% of HR operations streamlined</div>
       <div class="proj-stack"><span class="stack-tag">HiBob</span><span class="stack-tag">Payroll Automation</span><span class="stack-tag">Compliance</span></div>
@@ -1407,8 +1412,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 
     <div class="project-card">
       <div class="proj-header"><div class="proj-icon">🎯</div><div class="proj-status status-live">IN PRODUCTION</div></div>
-      <div class="proj-title">Revolut PMS — Performance, Made Visible</div>
-      <div class="proj-desc">Designed the company's OKR and review architecture inside Revolut's People Platform — turning performance management from an annual ritual into a live, trackable system.</div>
+      <div class="proj-title">Revolut PMS · Performance, Made Visible</div>
+      <div class="proj-desc">Designed the company's OKR and review architecture inside Revolut's People Platform, turning performance management from an annual ritual into a live, trackable system.</div>
       <div class="proj-impact">↳ 80% of evaluations tracked and measurable</div>
       <div class="proj-stack"><span class="stack-tag">Revolut PMS</span><span class="stack-tag">OKRs</span><span class="stack-tag">Review Cycles</span></div>
     </div>
@@ -1416,7 +1421,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
     <div class="project-card">
       <div class="proj-header"><div class="proj-icon">📈</div><div class="proj-status status-built">SELF-INITIATED</div></div>
       <div class="proj-title">HR Analytics Dashboard Suite</div>
-      <div class="proj-desc">Wrote custom Python and JavaScript scripts to pull and visualize time-to-hire, source effectiveness, funnel conversion, and attrition trends — no one asked for this; I built it because leadership needed it.</div>
+      <div class="proj-desc">Wrote custom Python and JavaScript scripts to pull and visualize time-to-hire, source effectiveness, funnel conversion, and attrition trends. No one asked for this; I built it because leadership needed it.</div>
       <div class="proj-impact">↳ Weekly insight instead of quarterly reporting</div>
       <div class="proj-stack"><span class="stack-tag">Python</span><span class="stack-tag">JavaScript</span><span class="stack-tag">Data Visualization</span></div>
     </div>
@@ -1424,7 +1429,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
     <div class="project-card">
       <div class="proj-header"><div class="proj-icon">🏗️</div><div class="proj-status status-built">FRAMEWORK</div></div>
       <div class="proj-title">Talent Management Framework</div>
-      <div class="proj-desc">Built a multi-level hiring and talent pipeline framework that gave NEXT Ventures a repeatable playbook for scaling technical headcount — instead of starting from scratch every quarter.</div>
+      <div class="proj-desc">Built a multi-level hiring and talent pipeline framework that gave NEXT Ventures a repeatable playbook for scaling technical headcount, instead of starting from scratch every quarter.</div>
       <div class="proj-impact">↳ Repeatable hiring playbook, not one-off effort</div>
       <div class="proj-stack"><span class="stack-tag">Talent Strategy</span><span class="stack-tag">Pipeline Design</span></div>
     </div>
@@ -1432,7 +1437,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
     <div class="project-card">
       <div class="proj-header"><div class="proj-icon">🤝</div><div class="proj-status status-built">BRAND</div></div>
       <div class="proj-title">Employer Branding & Candidate Experience</div>
-      <div class="proj-desc">Set candidate-experience standards across every sourcing channel — turning a faceless application process into one candidates actually rate highly, win or lose.</div>
+      <div class="proj-desc">Set candidate-experience standards across every sourcing channel, turning a faceless application process into one candidates actually rate highly, win or lose.</div>
       <div class="proj-impact">↳ Consistently high candidate satisfaction scores</div>
       <div class="proj-stack"><span class="stack-tag">Employer Branding</span><span class="stack-tag">LinkedIn</span></div>
     </div>
@@ -1443,7 +1448,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   <div class="case-study reveal" id="casefiles">
     <div class="case-head">
       <div>
-        <div class="case-file mono">CASE FILE — 001</div>
+        <div class="case-file mono">CASE FILE 001</div>
         <div class="case-title">The ATS That Didn't Exist</div>
       </div>
       <div class="case-badge">FLAGSHIP BUILD</div>
@@ -1451,20 +1456,20 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
     <div class="case-grid">
       <div class="case-step">
         <div class="case-step-label mono">THE GAP</div>
-        <p>Hiring ran on spreadsheets and inbox threads. Every CV screened by hand, every interview coordinated manually — recruiter hours bleeding into admin instead of judgment.</p>
+        <p>Hiring ran on spreadsheets and inbox threads. Every CV screened by hand, every interview coordinated manually, recruiter hours bleeding into admin instead of judgment.</p>
       </div>
       <div class="case-step">
         <div class="case-step-label mono">THE PITCH</div>
-        <p>I didn't ask for a tool — I presented a forecast: projected screening-hours recovered, cost per hire reduced, and a break-even timeline. Leadership approved on the numbers.</p>
+        <p>I didn't ask for a tool. I presented a forecast: projected screening-hours recovered, cost per hire reduced, and a break-even timeline. Leadership approved on the numbers.</p>
       </div>
       <div class="case-step">
         <div class="case-step-label mono">THE BUILD</div>
-        <p>Recruitee deployed end-to-end by one person: custom pipeline workflows, automation rules, live dashboards, and recruiter training — from zero to full adoption.</p>
+        <p>Recruitee deployed end-to-end by one person: custom pipeline workflows, automation rules, live dashboards, and recruiter training, from zero to full adoption.</p>
       </div>
       <div class="case-step case-result">
         <div class="case-step-label mono">THE PAYOFF</div>
         <div class="case-metric"><span class="counter" data-target="70">0</span>%</div>
-        <p>faster screening-to-hire across 130+ technical roles — and a hiring engine that now runs itself.</p>
+        <p>faster screening-to-hire across 130+ technical roles, and a hiring engine that now runs itself.</p>
       </div>
     </div>
   </div>
@@ -1472,7 +1477,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   <div class="case-study reveal">
     <div class="case-head">
       <div>
-        <div class="case-file mono">CASE FILE — 002</div>
+        <div class="case-file mono">CASE FILE 002</div>
         <div class="case-title">The HRIS Built From Zero</div>
       </div>
       <div class="case-badge">FLAGSHIP BUILD</div>
@@ -1480,7 +1485,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
     <div class="case-grid">
       <div class="case-step">
         <div class="case-step-label mono">THE GAP</div>
-        <p>No HRIS anywhere in the company. People data scattered across spreadsheets, email threads and paper trails — payroll, attendance and leave all manual, with no single source of truth for a scaling headcount.</p>
+        <p>No HRIS anywhere in the company. People data scattered across spreadsheets, email threads and paper trails. Payroll, attendance and leave all manual, with no single source of truth for a scaling headcount.</p>
       </div>
       <div class="case-step">
         <div class="case-step-label mono">THE PITCH</div>
@@ -1488,12 +1493,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
       </div>
       <div class="case-step">
         <div class="case-step-label mono">THE BUILD</div>
-        <p>HiBob architected entirely from scratch — every module, workflow, permission and integration configured solo, then driven through org-wide onboarding to complete adoption.</p>
+        <p>HiBob architected entirely from scratch, with every module, workflow, permission and integration configured solo, then driven through org-wide onboarding to complete adoption.</p>
       </div>
       <div class="case-step case-result">
         <div class="case-step-label mono">THE PAYOFF</div>
         <div class="case-metric"><span class="counter" data-target="65">0</span>%</div>
-        <p>of HR operations streamlined — payroll, attendance, leave and documentation now run as one automated system.</p>
+        <p>of HR operations streamlined. Payroll, attendance, leave and documentation now run as one automated system.</p>
       </div>
     </div>
   </div>
@@ -1501,7 +1506,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   <div class="case-study reveal">
     <div class="case-head">
       <div>
-        <div class="case-file mono">CASE FILE — 003</div>
+        <div class="case-file mono">CASE FILE 003</div>
         <div class="case-title">Performance, Made Visible</div>
       </div>
       <div class="case-badge">FLAGSHIP BUILD</div>
@@ -1509,7 +1514,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
     <div class="case-grid">
       <div class="case-step">
         <div class="case-step-label mono">THE GAP</div>
-        <p>No PMS existed — no OKRs, no structured review cycles. Performance lived in opinions and memory, invisible to leadership and impossible to act on with confidence.</p>
+        <p>No PMS existed. No OKRs, no structured review cycles. Performance lived in opinions and memory, invisible to leadership and impossible to act on with confidence.</p>
       </div>
       <div class="case-step">
         <div class="case-step-label mono">THE PITCH</div>
@@ -1517,7 +1522,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
       </div>
       <div class="case-step">
         <div class="case-step-label mono">THE BUILD</div>
-        <p>Revolut People Platform architected end-to-end — OKR framework, review cycles, performance analytics and manager enablement, taken from concept to full adoption.</p>
+        <p>Revolut People Platform architected end-to-end, spanning the OKR framework, review cycles, performance analytics and manager enablement, and taken from concept to full adoption.</p>
       </div>
       <div class="case-step case-result">
         <div class="case-step-label mono">THE PAYOFF</div>
@@ -1540,7 +1545,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   <div class="reveal">
     <div class="eyebrow">Capability Map</div>
     <h2 class="sec-title">The Rare Overlap: HR Strategy × Systems Engineering</h2>
-    <p class="sec-sub">Most HR leaders peak on people skills. I run high on both axes — that's the whole point of hiring me.</p>
+    <p class="sec-sub">Most HR leaders peak on people skills. I run high on both axes. That's the whole point of hiring me.</p>
   </div>
 
   <div class="radar-wrap reveal">
@@ -1593,7 +1598,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
     </div>
     <div class="radar-side">
       <h3>Capability Profile</h3>
-      <p>Five dimensions, one consistent pattern: I score high everywhere strategy meets execution — not just where most HR profiles cluster. <span class="radar-hint">Hover a dimension to light it up on the map.</span></p>
+      <p>Five dimensions, one consistent pattern: I score high everywhere strategy meets execution, not just where most HR profiles cluster. <span class="radar-hint">Hover a dimension to light it up on the map.</span></p>
       <div class="radar-legend" id="radarLegend">
         <div class="rl-item" data-i="0"><span class="rl-name"><span class="rl-dot"></span>HR Strategy & Business Partnering</span><span class="rl-right"><span class="tier tier-s">S</span><span class="rl-val"><span class="counter" data-target="9.5" data-decimal="1">0</span>/10</span></span></div>
         <div class="rl-item" data-i="1"><span class="rl-name"><span class="rl-dot"></span>Technical Recruiting</span><span class="rl-right"><span class="tier tier-s">S</span><span class="rl-val"><span class="counter" data-target="9.5" data-decimal="1">0</span>/10</span></span></div>
@@ -1660,13 +1665,13 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
     <div class="radar-card">
       <div class="radar-icon">🧬</div>
       <div class="radar-name">Skills-Based Talent Intelligence</div>
-      <div class="radar-desc">Mapping the organisation as a living skills graph instead of static job titles — so hiring, mobility and L&D run on capability data, not guesswork.</div>
+      <div class="radar-desc">Mapping the organisation as a living skills graph instead of static job titles, so hiring, mobility and L&D run on capability data, not guesswork.</div>
       <div class="radar-status mono">BUILDING</div>
     </div>
     <div class="radar-card">
       <div class="radar-icon">🔮</div>
       <div class="radar-name">Workforce Scenario Simulation</div>
-      <div class="radar-desc">Digital-twin modelling of org changes — testing restructures, headcount plans and comp shifts in simulation before they touch a single real employee.</div>
+      <div class="radar-desc">Digital-twin modelling of org changes, testing restructures, headcount plans and comp shifts in simulation before they touch a single real employee.</div>
       <div class="radar-status mono">EXPLORING</div>
     </div>
     <div class="radar-card">
@@ -1695,19 +1700,19 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   <div class="faq-list reveal">
     <details class="faq-item">
       <summary>Why does an HR manager write code?</summary>
-      <p>Because every major HR problem I've encountered was secretly a systems problem — data trapped in spreadsheets, decisions made on memory, hours lost to manual work. Code and automation multiply what one HR team can deliver. I'd rather build the machine than be the machine.</p>
+      <p>Because every major HR problem I've encountered was secretly a systems problem, with data trapped in spreadsheets, decisions made on memory, and hours lost to manual work. Code and automation multiply what one HR team can deliver. I'd rather build the machine than be the machine.</p>
     </details>
     <details class="faq-item">
       <summary>Can you rebuild these systems at a new company?</summary>
-      <p>Yes — that's the point of the four-phase loop. Diagnose, business case, build, automate: the method is platform-agnostic. Recruitee, HiBob and Revolut were the right tools for one context; the process that shipped them transfers to any stack, any org.</p>
+      <p>Yes, that's the point of the four-phase loop. Diagnose, business case, build, automate: the method is platform-agnostic. Recruitee, HiBob and Revolut were the right tools for one context; the process that shipped them transfers to any stack, any org.</p>
     </details>
     <details class="faq-item">
       <summary>What kind of environment do you thrive in?</summary>
-      <p>Fast-moving organisations where the infrastructure doesn't exist yet. I built my track record in FX/fintech pace — compliance-heavy, scaling quickly, zero tolerance for guesswork. If your people systems are a blank page, that's my favourite starting condition.</p>
+      <p>Fast-moving organisations where the infrastructure doesn't exist yet. I built my track record at FX/fintech pace, compliance-heavy and scaling quickly with zero tolerance for guesswork. If your people systems are a blank page, that's my favourite starting condition.</p>
     </details>
     <details class="faq-item">
       <summary>Remote, hybrid, or on-site?</summary>
-      <p>Open globally. APAC-based, remote-first ready, and comfortable operating across time zones — my systems are built to run asynchronously, and so am I.</p>
+      <p>Open globally. APAC-based, remote-first ready, and comfortable operating across time zones. My systems are built to run asynchronously, and so am I.</p>
     </details>
   </div>
 </section>
@@ -1719,7 +1724,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   <div class="reveal">
     <div class="eyebrow">Let's Build Something</div>
     <h2 class="sec-title">If You Need HR That Scales Like a Product, Let's Talk</h2>
-    <p class="sec-sub">Open to People & Culture leadership, HR analytics, and HR technology consulting roles — APAC-based or remote-first.</p>
+    <p class="sec-sub">Open to People & Culture leadership, HR analytics, and HR technology consulting roles, APAC-based or remote-first.</p>
   </div>
   <div class="contact-grid reveal">
     <div class="contact-links">
@@ -1730,7 +1735,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
         <div class="cl-icon">💼</div><div><div class="cl-label">LinkedIn</div><div class="cl-val">linkedin.com/in/jawad-uz-zaman</div></div>
       </a>
       <a href="tel:+8801777186804" class="contact-link">
-        <div class="cl-icon">📞</div><div><div class="cl-label">Phone</div><div class="cl-val">+880 1777 186 804</div></div>
+        <div class="cl-icon">📞</div><div><div class="cl-label">Phone</div><div class="cl-val">Ask Upon Request</div></div>
       </a>
       <a href="https://jawaduzzaman.github.io" target="_blank" rel="noopener" class="contact-link">
         <div class="cl-icon">🌐</div><div><div class="cl-label">Portfolio</div><div class="cl-val">jawaduzzaman.github.io</div></div>
@@ -1748,7 +1753,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
   </div>
 </section>
 
-<footer>Designed & engineered by <b>Jawad Uz Zaman</b> · © 2026 · Dhaka, Bangladesh</footer>
+<footer>Designed & Engineered by <b>Jawad Uz Zaman</b> · © 2026 · World Wide Web 😜</footer>
 </div></div>
 
 <script>
@@ -2079,7 +2084,7 @@ function handleSubmit(){
   const g=id=>document.getElementById(id).value.trim();
   const name=g('cfName'),email=g('cfEmail'),subject=g('cfSubject')||'Opportunity via Portfolio',msg=g('cfMsg');
   if(!name||!msg){alert('Please add your name and a short message.');return}
-  const body=encodeURIComponent(`${msg}\n\n— ${name}${email?` (${email})`:''}`);
+  const body=encodeURIComponent(`${msg}\n\n${name}${email?` (${email})`:''}`);
   location.href=`mailto:jawaduzzaman.work@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
 }
 </script>
